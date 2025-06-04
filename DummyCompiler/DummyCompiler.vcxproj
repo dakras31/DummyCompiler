@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="error.c" />
+    <ClCompile Include="location.c" />
+    <ClCompile Include="location.h" />
+    <ClCompile Include="o.c" />
+    <ClCompile Include="pars.c" />
+    <ClCompile Include="scan.c" />
+    <ClCompile Include="table.c" />
+    <ClCompile Include="text.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="error.h" />
+    <ClInclude Include="pars.h" />
+    <ClInclude Include="scan.h" />
+    <ClInclude Include="table.h" />
+    <ClInclude Include="text.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
